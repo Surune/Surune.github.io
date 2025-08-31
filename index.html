@@ -1,23 +1,110 @@
----
-layout: default
----
-<div class="container">
-  {% include header.html %}
-  <div class="container-block">
-    <div class="sidebar">
-      {% include contact.html %}
-      {% include languages.html %}
-      {% include education.html %}
-      {% include skills.html %}
-      {% include fork.html %}
-    </div>
-
-    <div class="main">
-      {% include career-profile.html %}
-      {% include experience.html %}
-      {% include publications.html %}
-      {% include projects.html %}
-      {% include volunteering.html %}
-    </div>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>서진규's Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><span class="highlight">서진규</span></h1>
+      <h2>| 클라이언트 프로그래머</h2>
+    </header>
+    <section class="about">
+      <h2>ABOUT</h2>
+      <p>게임을 좋아하는 평범한 클라이언트 프로그래머입니다.</p>
+      <ul>
+        <li>생년월일: 2000.04.13</li>
+        <li>Github: <a href="https://github.com/Surune">Surune</a></li>
+        <li>연락처: seojk413@naver.com / 010-9904-7146</li>
+      </ul>
+    </section>
+    <section class="education">
+      <hr>
+      <h2>EDUCATION</h2>
+      <div class="school">
+        <h3>대구과학고등학교<span class="date">2016/03 ~ 2019/02</span></h3>
+      </div>
+      <div class="school">
+        <h3>서울대학교<span class="date">2019/03 ~ 2023/08</span></h3>
+        <ul>
+          <li>GPA 3.66/4.3</li>
+          <li>주전공: 응용생물화학부 응용생물학전공</li>
+          <li>연합전공: 인공지능</li>
+        </ul>
+      </div>
+    </section>
+    <section class="work">
+      <hr>
+      <h2>WORK EXPERIENCES</h2>
+      <div class="job">
+        <h3><a href="https://actionpower.kr">ActionPower</a><span class="date">2022/07 ~ 2022/08</span></h3>
+        <ul>
+          <li>재학기간 중 2개월간 인턴으로 활동</li>
+          <li>의미 유사도 기반의 Unsupervised Topic Segmentation 연구</li>
+        </ul>
+      </div>
+      <div class="job">
+        <h3><a href="https://5minlab.com/ko/">5MINLAB</a><span class="date">2024/01 ~ </span></h3>
+        <ul>
+          <li>스매시 레전드 팀의 아웃게임 클라이언트 프로그래머</li>
+          <li>딩컴 투게더 팀의 클라이언트 프로그래머</li>
+          <li>콘솔 포팅 팀의 리드 클라이언트 프로그래머</li>
+          <ul>
+            <li>닌텐도 스위치, xbox, 플레이스테이션의 콘솔로 게임 포팅</li>
+            <li>개발 태스크 및 일정 관리</li>
+            <li>QA 및 L10N 프로세스 파이프라인 구축</li>
+          </ul>
+        </ul>
+      </div>
+    </section>
+    <section class="about">
+      <hr>
+      <h2>PROJECTS</h2>
+      <div class="project-container">
+        <div class="project-right">
+          <img src="assets/images/starfall.png" alt="Starfall 이미지">
+        </div>
+        <div class="project-left">
+          <h3><a href="https://github.com/Surune/Starfall">STARFALL</a><span class="date">2022/01 ~ 2022/12</span></h3>
+          <ul>
+            <li>1인 개발</li>
+            <li>종스크롤 로그라이트 슈팅 게임</li>
+            <li>플레이스토어, 앱스토어에 등록</li>
+            <li>9개월간 지속적인 업데이트</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-right">
+          <img src="assets/images/givemebbq.png" alt="Give Me BBQ 이미지">
+        </div>
+        <div class="project-left">
+          <h3><a href="https://ldjam.com/events/ludum-dare/54/give-me-bbq">Give Me BBQ</a><span class="date">2023/10</span></h3>
+          <ul>
+            <li>Ludum Dare 게임잼 54 출품작</li>
+            <li>2인 개발 : 기획, 아트 담당</li>
+            <li>제한된 공간의 그릴 안에 재료를 배치하여 잘 구워내는 게임</li>
+          </ul>
+        </div>
+      </div>
+      <div class="project-container">
+        <div class="project-right">
+          <img src="assets/images/bitile.png" alt="Bi-tile 이미지">
+        </div>
+        <div class="project-left">
+          <h3><a href="https://github.com/Surune/BiTile">Bi-Tile</a><span class="date">2023/10 ~ 2023/11</span></h3>
+          <ul>
+            <li>1개월간 2인 개발 : 기획, 프로그래밍, 아트 담당</li>
+            <li>오델로 규칙을 재해석한 캐주얼 퍼즐 게임</li>
+            <li>플레이스토어, 앱스토어에 등록</li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </div>
-</div>
+</body>
+</html>
