@@ -1,7 +1,6 @@
 body {
-  background-color: #202020;
-  color: #e0e0e0;
-  font-family: 'Fira Code';
+  background-color: #ffffff;
+  color: #101010;
   line-height: 1.6;
   margin: 0;
   padding: 0;
@@ -26,13 +25,15 @@ header h1 {
   margin-bottom: 5px;
 }
 
-header h1,
-header h2 {
-  margin: 0;
+header img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 header .highlight {
-  color: #f1d730;
+  color: #0969da;
   font-weight: bold;
 }
 
@@ -45,13 +46,13 @@ p {
 }
 
 section h2 {
-  color: #f5df4d;
+  color: #0969da;
   text-transform: bold;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #555;
+  border-top: 1px solid #a0a0a0;
   margin: 20px 0;
 }
 
@@ -68,17 +69,17 @@ hr {
 .job h3 {
   font-size: 1rem;
   margin-top: 16px;
-  color: #e0e0e0;
+  color: #101010;
 }
 
 .date {
-  font-size: 0.9rem;
-  color: #aaa;
+  font-size: 0.8rem;
+  color: #606060;
   margin-left: 10px;
 }
 
 a {
-  color: #e0e0e0;
+  color: #101010;
 }
 
 ul {
@@ -105,7 +106,7 @@ ul {
 
 .project-right img {
   width: 100%;
-  max-width: 250px; /* 최대 300px로 확대 */
+  max-width: 250px;
   border-radius: 5px;
   border: 1px solid #ffffff;
 }
